@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Harjutused</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+  <style>
+    .jumbo {
+      background-image: url("https://picsum.photos/id/684/1500/400");
+      color: #fff;
+    }
+    .card-img-top {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .blue-text {
+      color: #007BFF !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-rocket"></i>MINU BLOGi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Avaleht</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOGI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Minu Postitus</h2>
+          <small>Autor: <a href="#">Lilles</a></small>
+          <br>
+          <small>18.01.2024<span class="badge bg-primary">CSS</span> <span class="badge bg-secondary">Bootstrap</span></small>
+          <br><br>
+          <img src="https://picsum.photos/id/685/800/400" alt="Post Image" class="card-img-top">
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis delectus eligendi corporis atque! Inventore numquam nulla et laborum qui molestiae? At, libero illum blanditiis officiis qui laudantium quod accusamus voluptatem?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique laboriosam, veniam itaque aut corporis ratione repellat aliquam sapiente quibusdam perspiciatis sint, ullam inventore debitis unde porro vel deleniti! Asperiores, maxime!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique laboriosam, veniam itaque aut corporis ratione repellat aliquam sapiente quibusdam perspiciatis sint, ullam inventore debitis unde porro vel deleniti! Asperiores, maxime!</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Kategooriad</h5>
+            <div class="d-flex flex-column">
+              <span class="blue-text mb-2">HTML</span>
+              <span class="blue-text mb-2">CSS</span>
+              <span class="blue-text mb-2">Bootstrap</span>
+              <span class="blue-text mb-2">JavaScript</span>
+              <span class="blue-text mb-2">PHP</span>
+              <span class="blue-text mb-2">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-body">
+            <h5 class="card-title">Muu info</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim iste veritatis aliquid eaque, doloremque distinctio facilis voluptates est optio eligendi minus dignissimos cum dolorem nemo laborum inventore dicta natus. Facilis?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
